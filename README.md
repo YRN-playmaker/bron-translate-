@@ -5,7 +5,7 @@
 </div>
 
 # BroN-translate
-
+[![Live Site](https://img.shields.io/badge/🌐_Live-bron--translate.org-2ea44f?style=for-the-badge)](https://bron-translate.org)
 **Real-time AI translation gateway for international students and cross-border meetings.**
 
 A solo-built, full-stack system that delivers live speech-to-text translation in
