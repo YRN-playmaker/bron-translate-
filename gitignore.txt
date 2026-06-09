@@ -1,0 +1,27 @@
+# Secrets & credentials — NEVER commit
+.env
+.env.*
+!.env.example
+
+# User data
+*.db
+sponsors.db
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Models (large binaries)
+model/
+*.bin
+*.onnx
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
