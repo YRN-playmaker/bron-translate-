@@ -127,15 +127,6 @@ just the *what*.
   capacity, sessions fall back to the lightweight engine rather than failing.
   Users get *lighter* transcription, never an error page.
 
-## Roadmap
-
-- **Client-side GPU ASR.** A desktop client that runs a multilingual model on
-  the *user's own GPU*, pushing the heaviest compute entirely off the server.
-  The ASR router's interface is already designed to accept this as just another
-  backend. ([see the extensibility note](docs/asr_engine_routing.md#extensibility-note))
-- **Cross-semester semantic search** over accumulated lecture transcripts — a
-  genuinely underserved capability the existing stack is well-positioned for.
-
 ---
 ---
 
@@ -225,10 +216,4 @@ just the *what*.
 - **负载下的优雅降级。** 当较重的本地模型满载时，会话回退到轻量引擎而非直接失败。
   用户得到的是**更轻量**的转写，而绝不是一个报错页面。
 
-## 路线图
 
-- **客户端 GPU 推理。** 一个桌面客户端，在**用户自己的 GPU** 上运行多语种模型，
-  把最重的算力完全移出服务器。ASR 路由的接口已经设计为可以把它当作又一个后端接入。
-  （[见可扩展性说明](docs/asr_engine_routing.md#extensibility-note)）
-- **跨学期语义检索**——在累积的课堂转写之上做检索，
-  这是一个真正未被满足、而现有技术栈恰好擅长的能力。
